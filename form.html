@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="result.html" method="GET">
+        <div>
+
+            <label for="isim">isim:</label>
+            <input id="isim" type="text" name="isim" placeholder="Adinizi Giriniz" />
+            <br>
+            <label for="sname">soyisim:</label>
+            <input id="sname" type="text" name="soyisim" placeholder="Soyadinizi Giriniz" />
+
+        </div>
+        <br>
+        <div>
+
+            <label for="sifre">Parola:</label>
+            <input type="password" name="parola" id="sifre" placeholder="Parola Giriniz" />
+
+        </div>
+        <br>
+        <div>
+
+            <label for="">Cinsiyet</label>
+            <input type="radio" name="gender" id="gender_1" value="Erkek">
+            <label for="">Erkek</label>
+            <input type="radio" name="gender" id="gender_2" value="Kadin">
+            <label for="">Kadin</label>
+
+        </div>
+        <br>
+        <div>
+
+            <label>Favori Hayvan belirtiniz</label>
+
+            <input type="checkbox" name="animal_1" id="panda" checked>
+            <label for="panda">Panda</label>
+            <input type="checkbox" name="animal_2" id="balik">
+            <label for="balik">Balik</label>
+            <input type="checkbox" name="animal_3" id="unnicorn">
+            <label for="unicorn">Unicorn</label>
+
+        </div>
+        <br>
+        <div>
+
+            <label for="age">Yas</label>
+            <input type="number" name="yas" id="age" step="5" min="5" max="100" placeholder="Yasiniz">
+
+        </div>
+
+        <br>
+        <div>
+            <label for="search">Ara</label>
+            <input type="search" name="arandi" id="search" placeholder="Aranan Konu">
+
+        </div>
+        <br>
+        <div>
+
+            <label for="color">Renk Sec</label>
+            <input type="color" name="secilen renk" id="renk">
+
+        </div>
+        <br>
+        <div>
+
+            <label for="tarih">Bir tarih seciniz</label>
+            <input type="date" name="Secilen Tarih" id="tarih" min="2020-05-20" max="2022-06-21">
+
+        </div>
+
+
+
+
+        <br><br><br><br>
+        <input type="reset" value="Reset">
+        <input type="submit">
+
+
+
+
+
+
+    </form>
+</body>
+
+</html>
