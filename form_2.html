@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_2</title>
+
+    <style>
+        #seker {
+
+            border: 2px solid blue;
+            width: 200px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="result.html">
+
+        <div>
+
+            <label for="seker">Hangi tatliyi seversiniz</label>
+            <br>
+            <select name="tatli" id="seker" multiple size="3" required>
+                <option>-Bir Tatli Seciniz-</option>
+                <option value="Sütlac">Sütlac</option>
+                <option value="Keskül">Keskül</option>
+                <option selected value="Asure">Asure</option>
+                <option value="Puding">Puding</option>
+                <option value="Magnolia">Magnolia</option>
+
+            </select>
+
+        </div>
+        <br><br>
+        <div>
+
+            <label for="seker">Hangi tatliyi seversiniz</label>
+            <br>
+            <select name="tatli" id="seker" multiple size="6" required>
+                <optgroup label="Sütlü tatlilar">
+                    <option value="Sütlac">Sütlac</option>
+                    <option value="Keskül">Keskül</option>
+                </optgroup>
+
+                <optgroup label="Serbetli tatlilar">
+                    <option selected value="Asure">Asure</option>
+                    <option value="Puding">Puding</option>
+                    <option value="Magnolia">Magnolia</option>
+                </optgroup>
+
+            </select>
+
+        </div>
+        <br><br>
+        <div>
+
+            <textarea name="yorum" id="ta1" style="width: 100%; height: 100px; resize: none;"
+                placeholder="Yorum Lütfen..."></textarea>
+
+        </div>
+        <br><br>
+
+        <br>
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+
+</html>
